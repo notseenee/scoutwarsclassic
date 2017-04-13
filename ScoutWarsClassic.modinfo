@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="530a7f81-1c6b-40d6-a143-600cd2106aa5" version="72">
+  <Properties>
+    <Name>Scout Wars (Classic)</Name>
+    <Description>Now begins your greatest quest: from this early cradle of civilization towards becoming the victor of the Scout Wars.[NEWLINE][NEWLINE]Fight to the death to defeat your enemies – including Barbarians – using nothing but Scouts.[NEWLINE][NEWLINE]The classic, purest form of Scout Wars.[NEWLINE][NEWLINE]Requires game version 1.0.0.129 (260180) or later (Spring 2017 Update).[NEWLINE]Mod version 1.0 build 72</Description>
+    <CustomProperties></CustomProperties>
+    <Teaser>The classic, purest form of Scout Wars.</Teaser>
+    <Authors>Sidney Alcantara</Authors>
+    <SpecialThanks>@KonradN64, im nik</SpecialThanks>
+    <Homepage>http://github.com/notseenee/scoutwarsclassic</Homepage>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="SWCRulesetCriteria">
+      <RuleSetInUse>RULESET_SCOUT_WARS_CLASSIC</RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="SWC_Ruleset">
+      <File>SWC_Ruleset.xml</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="SWC_Gameplay" criteria="SWCRulesetCriteria">
+      <Criteria>SWCRulesetCriteria</Criteria>
+      <File priority="1">SWC_RemoveData.sql</File>
+      <File>SWC_Technologies.sql</File>
+      <File>SWC_Misc.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>SWC_Misc.sql</File>
+    <File>SWC_RemoveData.sql</File>
+    <File>SWC_Ruleset.xml</File>
+    <File>SWC_Technologies.sql</File>
+  </Files>
+</Mod>
