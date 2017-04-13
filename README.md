@@ -71,3 +71,4 @@ Build 72
 
 ## Special thanks
 **[@KonradN64](https://twitter.com/konradn64)** and **im nik** for conceiving the idea of Scout Wars.
+**[[LONGNAME]](http://steamcommunity.com/profiles/76561198173085893/)** for the first playtest and the screenshot above.
