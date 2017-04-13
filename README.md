@@ -43,6 +43,7 @@ Scout Wars (Classic) is a Civilization VI mod for the classic, purest form of Sc
 * Limit victory conditions to Score and Domination
 
 ## Installation Instructions
+Requires game version 1.0.0.129 (260180) or later (Spring 2017 Update).
 ### Steam Workshop (recommended)
 Link: 
 1. Go to the link.
@@ -59,10 +60,14 @@ Link:
 5. Click `Additional Content` on the main menu.
 6. Click on `Scout Wars (Classic)` and make sure it is Enabled.
 
-## Instructions
+## Usage Instructions
 1. Create a new game.
 2. From the `Ruleset` dropdown, select `Scout Wars (Classic)`.
 3. Set `City States` to `0`. (Optional)
+
+## Current Mod Version
+Version 1.0
+Build 72
 
 ## Special thanks
 **[@KonradN64](https://twitter.com/konradn64)** and **im nik** for conceiving the idea of Scout Wars.
