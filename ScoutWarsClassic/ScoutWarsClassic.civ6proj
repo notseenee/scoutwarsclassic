@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Scout Wars (Classic)</Name>
+    <Guid>530a7f81-1c6b-40d6-a143-600cd2106aa5</Guid>
+    <ProjectGuid>ef17547c-4b9a-4f04-b866-b2c24803ef72</ProjectGuid>
+    <ModVersion>72</ModVersion>
+    <Teaser>The classic, purest form of Scout Wars.</Teaser>
+    <Description>Now begins your greatest quest: from this early cradle of civilization towards becoming the victor of the Scout Wars.[NEWLINE][NEWLINE]Fight to the death to defeat your enemies – including Barbarians – using nothing but Scouts.[NEWLINE][NEWLINE]The classic, purest form of Scout Wars.[NEWLINE][NEWLINE]Requires game version 1.0.0.129 (260180) or later (Spring 2017 Update).[NEWLINE]Mod version 1.0 build 72</Description>
+    <Authors>Sidney Alcantara</Authors>
+    <SpecialThanks>@KonradN64, im nik</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>ScoutWarsClassic</AssemblyName>
+    <RootNamespace>ScoutWarsClassic</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="SWC_Gameplay" criteria="SWCRulesetCriteria"><Criteria>SWCRulesetCriteria</Criteria><File priority="1">SWC_RemoveData.sql</File><File>SWC_Technologies.sql</File><File>SWC_Misc.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="SWC_Ruleset"><File>SWC_Ruleset.xml</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="SWCRulesetCriteria"><RuleSetInUse>RULESET_SCOUT_WARS_CLASSIC</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <Homepage>http://github.com/notseenee/scoutwarsclassic</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="SWC_Misc.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SWC_RemoveData.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SWC_Ruleset.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SWC_Technologies.sql">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
