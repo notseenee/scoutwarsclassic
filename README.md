@@ -45,7 +45,7 @@ Scout Wars (Classic) is a Civilization VI mod for the classic, purest form of Sc
 ## Installation Instructions
 Requires game version 1.0.0.129 (260180) or later (Spring 2017 Update).
 ### Steam Workshop (recommended)
-Link: 
+Link: http://steamcommunity.com/sharedfiles/filedetails/?id=904310387
 1. Go to the link.
 2. Click `Subscribe`.
 3. Open the game.
