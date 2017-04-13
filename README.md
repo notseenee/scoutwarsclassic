@@ -6,7 +6,7 @@ Fight to the death to defeat your enemies – including Barbarians – using not
 Scout Wars (Classic) is a Civilization VI mod for the classic, purest form of Scout Wars.
 
 ![Scout](https://raw.githubusercontent.com/notseenee/scoutwarsclassic/source/Scout.png)
-![Scout Wars (Classic) screenshot](https://raw.githubusercontent.com/notseenee/scoutwarsclassic/source/scoutwarsclassic.png)
+![Scout Wars (Classic) screenshot](https://raw.githubusercontent.com/notseenee/scoutwarsclassic/source/SWC_Screenshot.jpg)
 
 ## Changes made to the game
 * Removed all units, except:
